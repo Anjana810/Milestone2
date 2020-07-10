@@ -4,18 +4,21 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
+      "defaultValue": "anjana",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
     },
     "adminPassword": {
       "type": "securestring",
+      "defaultValue": "password",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
     },
     "dnsLabelPrefix": {
       "type": "string",
+      "defaultValue": "anjana123",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
       }
